@@ -351,7 +351,17 @@ html[lang='mr'] .hero__bless {
 .five-card {
   text-decoration: none;
   color: inherit;
-  padding: 1rem 1.1rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.five-card .bappa {
+  background: #2a1810;
+}
+
+.five-card__body {
+  display: block;
+  padding: 1rem 1.1rem 1.1rem;
 }
 
 .five-card__rank {
@@ -582,6 +592,18 @@ html[lang='mr'] .hero__bless {
 }
 
 .next-card {
+  padding-top: 0;
+  overflow: hidden;
+}
+
+.next-card .bappa {
+  margin: 0 -1.2rem 1rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.next-card {
   background:
     linear-gradient(180deg, rgba(196, 92, 38, 0.06), transparent 40%),
     var(--paper);
@@ -732,6 +754,76 @@ html[lang='mr'] .hero__bless {
 
 .complete h1 {
   color: var(--maroon);
+}
+
+.bappa {
+  margin: 0;
+  background: #2a1810;
+}
+
+.bappa img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.bappa--hero {
+  border-radius: var(--radius);
+  margin: 0.8rem 0 1rem;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.bappa--thumb {
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+.bappa figcaption {
+  padding: 0.45rem 0.2rem 0;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.photo-note {
+  font-size: 0.86rem;
+}
+
+.photo-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.photo-grid__card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  font-weight: 650;
+  font-size: 0.9rem;
+}
+
+.photo-grid__card span {
+  display: block;
+  padding: 0.55rem 0.7rem 0.7rem;
+}
+
+@media (min-width: 640px) {
+  .photo-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 @media (min-width: 800px) {

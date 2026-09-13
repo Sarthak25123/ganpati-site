@@ -113,6 +113,9 @@ export const ui = {
     notFound: 'This path is not on the route.',
     goHome: 'Return home',
     menuTitle: 'The guide book',
+    photoCredit: 'Photo',
+    photoNote:
+      'Festival ornaments change each year. These are archival photographs from Wikimedia Commons. Kasba’s inner murti is rarely photographed, so that picture shows the temple.',
   },
   mr: {
     siteName: 'मानाचे गणपती',
@@ -227,6 +230,9 @@ export const ui = {
     notFound: 'हा रस्ता मार्गावर नाही.',
     goHome: 'मुख्य पानावर',
     menuTitle: 'मार्गदर्शिका',
+    photoCredit: 'छायाचित्र',
+    photoNote:
+      'उत्सवी दागिने दरवर्षी बदलतात. ही विकिमीडिया कॉमन्सवरील जुनी छायाचित्रे आहेत. कसबाच्या आतील मूर्तीचे छायाचित्र दुर्मिळ असल्याने तेथे मंदिराचे चित्र आहे.',
   },
 } as const
 

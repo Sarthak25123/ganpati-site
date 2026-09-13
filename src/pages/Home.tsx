@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import { GANPATIS } from '../data/ganpatis'
+import { GanpatiPhoto } from '../components/GanpatiPhoto'
 import { Motif } from '../components/Motif'
+import { GANPATIS } from '../data/ganpatis'
 import { tx } from '../i18n/ui'
 import { useGuide } from '../state/GuideContext'
 
@@ -38,12 +39,15 @@ export function Home() {
         {GANPATIS.map((g) => (
           <li key={g.id}>
             <Link to={`/mandal/${g.slug}`} className="five-card">
-              <span className="five-card__rank">
-                <em>{g.id}</em>
-                {lang === 'mr' ? g.rankMr : `Manacha ${g.rankEn}`}
+              <GanpatiPhoto ganpati={g} lang={lang} variant="card" />
+              <span className="five-card__body">
+                <span className="five-card__rank">
+                  <em>{g.id}</em>
+                  {lang === 'mr' ? g.rankMr : `Manacha ${g.rankEn}`}
+                </span>
+                <strong>{lang === 'mr' ? g.nameMr : g.nameEn}</strong>
+                <span>{lang === 'mr' ? g.areaMr : g.areaEn}</span>
               </span>
-              <strong>{lang === 'mr' ? g.nameMr : g.nameEn}</strong>
-              <span>{lang === 'mr' ? g.areaMr : g.areaEn}</span>
             </Link>
           </li>
         ))}
@@ -54,6 +58,7 @@ export function Home() {
         <Link to="/festival">{tx(lang, 'festivalNote')}</Link>
         <Link to="/others">{tx(lang, 'otherGanpatis')}</Link>
       </nav>
+      <p className="muted photo-note">{tx(lang, 'photoNote')}</p>
     </article>
   )
 }

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { GanpatiPhoto } from '../components/GanpatiPhoto'
 import { ProgressTrail } from '../components/ProgressTrail'
 import { RouteMap } from '../components/RouteMap'
 import { GANPATIS } from '../data/ganpatis'
@@ -42,15 +43,19 @@ export function Overview() {
           </li>
         ))}
       </ol>
-      <ul className="plain-links">
+      <ul className="photo-grid">
         {GANPATIS.map((g) => (
           <li key={g.id}>
-            <Link to={`/mandal/${g.slug}`}>
-              {g.id}. {lang === 'mr' ? g.nameMr : g.nameEn}
+            <Link to={`/mandal/${g.slug}`} className="photo-grid__card">
+              <GanpatiPhoto ganpati={g} lang={lang} variant="thumb" />
+              <span>
+                {g.id}. {lang === 'mr' ? g.nameMr : g.nameEn}
+              </span>
             </Link>
           </li>
         ))}
       </ul>
+      <p className="muted photo-note">{tx(lang, 'photoNote')}</p>
     </article>
   )
 }

@@ -1,4 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
+import { GanpatiPhoto } from '../components/GanpatiPhoto'
 import { RouteMap } from '../components/RouteMap'
 import { GANPATIS, ganpatiBySlug } from '../data/ganpatis'
 import {
@@ -30,6 +31,8 @@ export function Mandal() {
         <small>{lang === 'mr' ? g.nameEn : g.nameMr}</small>
       </h1>
       <p className="lead">{lang === 'mr' ? g.areaMr : g.areaEn}</p>
+
+      <GanpatiPhoto ganpati={g} lang={lang} variant="hero" credit />
 
       <RouteMap user={location} highlightId={g.id} status={status} />
 

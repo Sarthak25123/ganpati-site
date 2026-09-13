@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { GanpatiPhoto } from '../components/GanpatiPhoto'
 import { ProgressTrail } from '../components/ProgressTrail'
 import { RouteMap } from '../components/RouteMap'
 import { GANPATIS } from '../data/ganpatis'
@@ -142,6 +143,7 @@ export function Guide() {
       ) : null}
 
       <section className="next-card">
+        <GanpatiPhoto ganpati={dest} lang={lang} variant="hero" />
         <p className="next-card__rank">{lang === 'mr' ? dest.rankMr : `Manacha ${dest.rankEn}`}</p>
         <h2>{lang === 'mr' ? dest.nameMr : dest.nameEn}</h2>
         <p className="muted">{lang === 'mr' ? dest.areaMr : dest.areaEn}</p>

@@ -15,6 +15,16 @@ export const GANPATIS: Ganpati[] = [
       '159, Kasba Peth Road, near Phadke Haud / Ramganesh Gadkari Path, Kasba Peth, Pune 411011',
     lat: 18.51903,
     lng: 73.85724,
+    photo: 'kasba.jpg',
+    photoAlt: {
+      en: 'Kasba Ganpati temple in Kasba Peth, lit for Ganeshotsav. Freely licensed photographs of the inner murti are rare.',
+      mr: 'गणेशोत्सवात रोषणाई केलेले कसबा गणपती मंदिर. आतील मूर्तीची मुक्त परवाना छायाचित्रे दुर्मिळ आहेत.',
+    },
+    photoCredit: {
+      author: 'DesiBoy101',
+      license: 'CC BY-SA 4.0',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Kasba_Ganpati_Temple_illuminated_(1).jpg',
+    },
     yearNote: {
       en: 'Temple tradition from the 1630s; first place of honour in the public festival from 1893.',
       mr: 'मंदिर परंपरा इ.स. १६३० च्या दशकातील; सार्वजनिक गणेशोत्सवात १८९३ पासून मानाचे पहिले स्थान.',
@@ -61,6 +71,17 @@ export const GANPATIS: Ganpati[] = [
     address: '33 A, Budhwar Peth Road, near Appa Balwant Chowk, Budhwar Peth, Pune 411002',
     lat: 18.51639,
     lng: 73.85472,
+    photo: 'tambdi.jpg',
+    photoAlt: {
+      en: 'Full view of Tambdi Jogeshwari Ganpati, Manacha Dusra, in the 2024 silver mandap',
+      mr: '२०२४ च्या चांदीच्या मंडपातील तांबडी जोगेश्वरी गणपती, मानाचा दुसरा — पूर्ण दर्शन',
+    },
+    photoCredit: {
+      author: 'DesiBoy101',
+      license: 'CC BY-SA 4.0',
+      sourceUrl:
+        'https://commons.wikimedia.org/wiki/File:Ganesha_idol_of_Tambdi_Jogeshwari_Sarvajanik_Ganeshotsav_Mandal_2024.jpg',
+    },
     yearNote: {
       en: 'The Jogeshwari temple is centuries old; the Ganeshotsav mandal has held the second maan since 1893.',
       mr: 'जोगेश्वरी मंदिर शेकडो वर्षांचे; गणेशोत्सव मंडळाला १८९३ पासून मानाचे दुसरे स्थान आहे.',
@@ -107,6 +128,16 @@ export const GANPATIS: Ganpati[] = [
     address: '184, Laxmi Road, Tulshibaug, Budhwar Peth, Pune 411002',
     lat: 18.5142,
     lng: 73.85555,
+    photo: 'guruji.jpg',
+    photoAlt: {
+      en: 'Guruji Talim Ganpati, the third honoured Ganpati of Pune',
+      mr: 'गुरुजी तालीम गणपती, पुण्याचा मानाचा तिसरा गणपती',
+    },
+    photoCredit: {
+      author: 'Suraj.patekar',
+      license: 'CC BY-SA 3.0',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Guruji_Talim_Ganpati.JPG',
+    },
     yearNote: {
       en: 'Established in 1887 — older than Tilak’s public Ganeshotsav — by Hindu and Muslim families of the talim.',
       mr: 'स्थापना १८८७ — टिळकांच्या सार्वजनिक गणेशोत्सवापेक्षा जुने — तालीमशी निगडित हिंदू व मुस्लिम कुटुंबांकडून.',
@@ -153,6 +184,17 @@ export const GANPATIS: Ganpati[] = [
     address: 'Tulshibaug, Budhwar Peth, Pune 411002',
     lat: 18.5128,
     lng: 73.8561,
+    photo: 'tulshibaug.jpg',
+    photoAlt: {
+      en: 'Full seated Tulshibaug Ganpati in silver ornaments under the festival canopy',
+      mr: 'उत्सवी तोरणांत चांदीच्या दागिन्यांतील तुळशीबाग गणपती — पूर्ण मूर्ती',
+    },
+    photoCredit: {
+      author: 'DesiBoy101',
+      license: 'CC BY-SA 4.0',
+      sourceUrl:
+        'https://commons.wikimedia.org/wiki/File:Ganesh_idol_of_Tulshibaug_Sarvajanik_Ganeshotsav_Mandal_in_2024.jpg',
+    },
     yearNote: {
       en: 'Mandal from 1901. First in Pune to install a fibreglass festival idol, in 1975.',
       mr: 'मंडळ १९०१ पासून. १९७५ मध्ये पुण्यात प्रथम फायबरग्लास उत्सवी मूर्ती बसवणारे.',
@@ -199,6 +241,16 @@ export const GANPATIS: Ganpati[] = [
     address: '577, N.C. Kelkar Road, Narayan Peth, Pune 411030',
     lat: 18.515989,
     lng: 73.849017,
+    photo: 'kesariwada.jpg',
+    photoAlt: {
+      en: 'Full view of both Kesariwada Ganpati murtis with Lokmanya Tilak’s statue',
+      mr: 'केसरीवाडा गणपतीच्या दोन्ही मूर्ती आणि लोकमान्य टिळकांचा पुतळा — पूर्ण दर्शन',
+    },
+    photoCredit: {
+      author: 'DesiBoy101',
+      license: 'CC BY 4.0',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Tilak_Wada_Ganpati_in_2025_Ganesh_Chaturthi.jpg',
+    },
     yearNote: {
       en: 'Kesari Trust festival from 1894; moved to Gaikwad Wada (today’s Kesariwada) in 1905.',
       mr: 'केसरी ट्रस्टचा उत्सव १८९४ पासून; १९०५ मध्ये गायकवाड वाड्यात (आजचा केसरीवाडा) स्थलांतर.',
@@ -240,4 +292,8 @@ export function ganpatiBySlug(slug: string): Ganpati | undefined {
 
 export function ganpatiById(id: number): Ganpati | undefined {
   return GANPATIS.find((g) => g.id === id)
+}
+
+export function photoSrc(file: string): string {
+  return `${import.meta.env.BASE_URL}photos/${file}`
 }

@@ -21,6 +21,12 @@ export type RouteMode = 'traditional' | 'nearest'
 
 export type GanpatiId = 1 | 2 | 3 | 4 | 5
 
+export type PhotoCredit = {
+  author: string
+  license: string
+  sourceUrl: string
+}
+
 export type Ganpati = {
   id: GanpatiId
   slug: string
@@ -34,6 +40,9 @@ export type Ganpati = {
   address: string
   lat: number
   lng: number
+  photo: string
+  photoAlt: Localized
+  photoCredit: PhotoCredit
   yearNote: Localized
   history: Localized
   whyMaan: Localized

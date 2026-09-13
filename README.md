@@ -4,6 +4,8 @@ A browser guide for walking Pune’s five honoured Ganpatis in ceremonial order:
 
 **Live site:** https://sarthak25123.github.io/ganpati-site/
 
+**Source:** https://github.com/Sarthak25123/ganpati-site
+
 ```bash
 npm install
 npm run dev
