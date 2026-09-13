@@ -1,0 +1,19 @@
+{
+  "name": "Maanache Ganpati Darshan Guide — Pune",
+  "short_name": "Maanache Ganpati",
+  "description": "Walk Pune’s five honoured Ganpatis in ceremonial order from your location.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f0e4",
+  "theme_color": "#6e1a24",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
